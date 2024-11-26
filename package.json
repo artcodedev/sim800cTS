@@ -1,0 +1,19 @@
+{
+  "name": "sim800cts",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/node": "^20.11.17",
+    "tsx": "^4.7.1"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "serialport": "^12.0.0"
+  }
+}
